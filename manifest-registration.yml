@@ -1,5 +1,5 @@
 applications:
-- name: tracker-registration
+- name: tracker-registration-sachin
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
   - route: registration-pal-sachin-pcf.apps.dev.pcf-aws.com
