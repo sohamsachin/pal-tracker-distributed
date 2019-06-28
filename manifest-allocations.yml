@@ -2,11 +2,12 @@ applications:
 - name: tracker-allocations-sachin
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   routes:
-  - route: allocations-pal-sachin-pcf.apps.dev.pcf-aws.com
-  memory: 1G
+  - route: allocations-pal-sachin-pcf.cfapps.io
+  memory: 500M
+  disk_quota: 500M
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sachin-pcf.apps.dev.pcf-aws.com
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sachin-pcf.cfapps.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-allocations-database
