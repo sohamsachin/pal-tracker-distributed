@@ -2,7 +2,7 @@ applications:
 - name: tracker-timesheets-sachin
   path: ./applications/timesheets-server/build/libs/timesheets-server.jar
   routes:
-  - route: timesheets-pal-sachin-pcf.cfapps.io
+  - route: timesheets-pal-sachin-khushboo-pcf.apps.dev.pcf-aws.com
   memory: 500M
   disk_quota: 500M
   instances: 1

@@ -2,7 +2,7 @@ applications:
 - name: tracker-registration-sachin
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal-sachin-pcf.cfapps.io
+  - route: registration-pal-sachin-khushboo-pcf.apps.dev.pcf-aws.com
   memory: 500M
   disk_quota: 500M
   instances: 1

@@ -2,7 +2,7 @@ applications:
 - name: tracker-backlog-sachin
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
-  - route: backlog-pal-sachin-pcf.cfapps.io
+  - route: backlog-pal-sachin-khushboo-pcf.apps.dev.pcf-aws.com
   memory: 500M
   disk_quota: 500M
   instances: 1
